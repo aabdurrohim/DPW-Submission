@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(211, 211, 211);
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  height: 1000px;
+}
+p {
+  font-size: 16px;
+}
+header {
+  background-color: #4f709c;
+  margin-bottom: 30px;
+  text-align: center;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+h1 {
+  padding: 175px;
+  margin-top: 0px;
+  color: white;
+}
+h3 {
+  margin-top: 15px;
+}
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: #7395c3;
+  padding: 20px;
+}
+
+li a {
+  color: rgb(255, 255, 255);
+}
+h1,
+h3 {
+  text-align: center;
+}
+.card {
+  margin-top: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+}
+.flex-container {
+  display: flex;
+}
+.flex-container #main-body {
+  flex: 4;
+}
+.flex-container #bio {
+  flex: 1;
+}
+
+.footer {
+  background-color: azure;
+  margin-bottom: 0;
+  margin-top: 10px;
+  text-align: center;
+  padding: 30px;
+}
+main {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#bio {
+  margin-right: 30px;
+}
+aside {
+  justify-content: center;
+  text-align: center;
+}
+#bio table {
+  margin: 0 auto;
+}
+.social-link {
+  padding: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.social-link a img {
+  max-width: 30px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.img {
+  display: block;
+  margin: 0 auto;
+}
