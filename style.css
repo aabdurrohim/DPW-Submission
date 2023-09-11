@@ -79,6 +79,7 @@ main {
 }
 #bio {
   margin-right: 30px;
+  height: 500px;
 }
 aside {
   justify-content: center;
